@@ -3,11 +3,10 @@
 # This script fetches IP addresses from AbuseIPDB with a specified minimum confidence score and bans them by adding blackhole routes. Both IPv4 and IPv6 addresses are supported. The script logs its actions and provides detailed debugging information.
 Requirements
 
-```
     Operating System: Debian-based distributions (Ubuntu, Debian, etc.) or AlmaLinux
     Packages: curl, jq, iproute2
     API Key: AbuseIPDB API key
-```
+
 
 #Installation
 Step 1: Install Required Packages
