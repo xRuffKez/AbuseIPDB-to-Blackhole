@@ -83,11 +83,13 @@ Save and exit the crontab editor.
    - API Key Issues:
         Ensure your API key is correct and active. Test with a basic curl command:
 
+```
         API_KEY="your_abuseipdb_api_key"
         curl -G https://api.abuseipdb.com/api/v2/blacklist \
             --data-urlencode "confidenceMinimum=25" \
             -H "Key: ${API_KEY}" \
             -H "Accept: application/json"
+```
 
    - Permissions:
         Ensure the script and log file have the correct permissions.
