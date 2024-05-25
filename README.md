@@ -9,7 +9,7 @@ Requirements
 
 
 # Installation
-Step 1: Install Required Packages
+# Step 1: Install Required Packages
 
 Ensure curl, jq, and iproute2 are installed on your system.
 
