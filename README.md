@@ -101,4 +101,4 @@ Save and exit the crontab editor.
         Ensure all required packages (curl, jq, iproute2) are installed.
 
 
-For any issues or questions, please contact [your contact information].
+For any issues or questions, please create an issue!
