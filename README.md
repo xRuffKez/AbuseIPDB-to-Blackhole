@@ -69,7 +69,7 @@ To run the script periodically, set up a cron job:
 sudo crontab -e
 ```
 
-Add the following line to run the script every hour:
+Add the following line to run the script every day:
 
 ```
 @daily /usr/local/bin/ban_abuseipdb.sh
