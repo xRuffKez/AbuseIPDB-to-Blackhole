@@ -47,7 +47,8 @@ check_requirements() {
 fetch_blacklist() {
     log "Fetching data from AbuseIPDB with a confidence level >= $CONFIDENCE_MIN"
     response=$(curl -G https://api.abuseipdb.com/api/v2/blacklist \
-        --data-urlencode "confidenceMinimum=${CONFIDENCE_MIN}" \
+        -d "confidenceMinimum=${CONFIDENCE_MIN}" \
+        -d limit=9999999 \
         -H "Key: ${API_KEY}" \
         -H "Accept: application/json" -o $FILE -w "%{http_code}")
 
